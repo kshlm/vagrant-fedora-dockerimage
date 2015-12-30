@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dnf install -y shadow-utils sudo openssh-server openssh-clients
-yum clean all
+dnf clean all
 
 # Setup SystemD
 # Taken from github.com/dockerimages/docker-systemd
