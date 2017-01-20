@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -f /usr/lib/tmpfiles.d/systemd-nologin.conf
+
 dnf install -y shadow-utils sudo openssh-server openssh-clients
 dnf clean all
 
