@@ -2,7 +2,7 @@
 
 rm -f /usr/lib/tmpfiles.d/systemd-nologin.conf
 
-dnf install -y shadow-utils sudo openssh-server openssh-clients python2
+dnf install -y shadow-utils sudo openssh-server openssh-clients python2 python2-dnf libselinux-python
 dnf clean all
 
 # Setup SystemD
