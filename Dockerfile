@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora:29
 MAINTAINER Kaushal M kshlmster@gmail.com
 
 ENV container docker
